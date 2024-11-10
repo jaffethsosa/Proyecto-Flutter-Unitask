@@ -54,7 +54,7 @@ class MainMenu extends StatelessWidget {
             leading: const Icon(Icons.settings),
             title: const Text('Configuración'),
             onTap: () {
-              context.pop();
+              context.push('/setting');
             },
           ),
         ],

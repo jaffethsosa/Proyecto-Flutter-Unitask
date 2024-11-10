@@ -20,5 +20,9 @@ final mainRouter = GoRouter(
       path: '/task',
       builder: (context, state) => const TaskScreen(),
     ),
+    GoRoute(
+      path: '/setting',
+      builder: (context, state) => const SettingScreen(),
+    ),
   ],
 );
