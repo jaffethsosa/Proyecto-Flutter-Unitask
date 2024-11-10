@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class MainMenu extends StatelessWidget {
-  const MainMenu({Key? key}) : super(key: key);
+  const MainMenu({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,30 +22,31 @@ class MainMenu extends StatelessWidget {
               ),
             ),
           ),
-          // Opción de "Inicio"
           ListTile(
             leading: const Icon(Icons.home),
             title: const Text('Inicio'),
             onTap: () {
-              // Regresar a la pantalla anterior
               context.pop();
             },
           ),
-          // Opción de "Perfil"
           ListTile(
             leading: const Icon(Icons.account_circle),
             title: const Text('Perfil'),
             onTap: () {
-              // Navegar a la pantalla de perfil
               context.push('/perfil');
             },
           ),
-          // Opción de "Configuración"
+          ListTile(
+            leading: const Icon(Icons.task_alt),
+            title: const Text('Tareas'),
+            onTap: () {
+              context.push('/task');
+            },
+          ),
           ListTile(
             leading: const Icon(Icons.settings),
             title: const Text('Configuración'),
             onTap: () {
-              // Regresar a la pantalla anterior
               context.pop();
             },
           ),
