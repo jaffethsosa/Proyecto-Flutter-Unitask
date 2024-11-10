@@ -17,7 +17,6 @@ class PerfilRepository {
     final List<Perfil> perfiles = perfilFromJson(perfilJson);
     return perfiles;
   } catch (e) {
-    print("Error cargando el archivo JSON: $e");
     return [];
   }
 }

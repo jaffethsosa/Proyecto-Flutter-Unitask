@@ -39,7 +39,7 @@ class TaskScreen extends StatelessWidget {
                 },
               );
             } else {
-              return const CircularProgressIndicator(); // Muestra un indicador de carga mientras se obtienen las tareas
+              return const CircularProgressIndicator(); 
             }
           },
         )),

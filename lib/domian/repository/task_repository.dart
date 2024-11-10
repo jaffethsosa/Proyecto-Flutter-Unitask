@@ -17,7 +17,6 @@ class TaskRepository {
     final List<Task> tasks = taskFromJson(taskJson);
     return tasks;
   } catch (e) {
-    print("Error cargando el archivo JSON: $e");
     return [];
   }
 }

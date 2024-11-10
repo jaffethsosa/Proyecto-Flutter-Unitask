@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Nuevo programa de becas para estudiantes internacionales",
+      "author": "Ana Torres",
+      "date": "2024-11-09",
+      "summary": "La universidad lanza un programa de becas dirigido a estudiantes internacionales para fomentar la diversidad académica."
+    },
+    {
+      "id": 2,
+      "title": "Innovación en la enseñanza: Nuevas aulas virtuales",
+      "author": "Pedro González",
+      "date": "2024-11-08",
+      "summary": "La universidad implementa nuevas herramientas digitales para mejorar la experiencia de aprendizaje remoto."
+    },
+    {
+      "id": 3,
+      "title": "Investigación sobre energías renovables en la universidad",
+      "author": "Carlos Martínez",
+      "date": "2024-11-07",
+      "summary": "Un equipo de investigación de la universidad ha presentado avances importantes en el campo de las energías renovables."
+    }
+]
+  

@@ -1,6 +1,4 @@
-import 'package:app_fluter_unitask/presentation/screen/home/home_screen.dart';
-import 'package:app_fluter_unitask/presentation/screen/perfil/perfil_screen.dart';
-import 'package:app_fluter_unitask/presentation/screen/task/task_screen.dart';
+import 'package:app_fluter_unitask/presentation/screen/index.dart';
 import 'package:go_router/go_router.dart';
 
 final mainRouter = GoRouter(
@@ -13,6 +11,10 @@ final mainRouter = GoRouter(
     GoRoute(
       path: '/perfil',
       builder: (context, state) => const PerfilScreen(),
+    ),
+    GoRoute(
+      path: '/notice',
+      builder: (context, state) => const NoticeScreen(),
     ),
     GoRoute(
       path: '/task',
